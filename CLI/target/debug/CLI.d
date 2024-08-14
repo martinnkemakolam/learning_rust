@@ -1,0 +1,1 @@
+C:\Users\nkema\OneDrive\Documents\code\learning\rust\CLI\target\debug\CLI.exe: C:\Users\nkema\OneDrive\Documents\code\learning\rust\CLI\src\lib.rs C:\Users\nkema\OneDrive\Documents\code\learning\rust\CLI\src\main.rs
