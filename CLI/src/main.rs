@@ -6,8 +6,8 @@ use ::CLI::*;
 
 
 fn main() {
-    let environment_variables: Vec<String> = env::args().collect();
-    let value = Config::new(&environment_variables).unwrap_or_else(
+    let environment_variables = env::args();
+    let value = Config::new(environment_variables).unwrap_or_else(
         |err|{
             println!("Program ended with error: {}", err);
             process::exit(1);
